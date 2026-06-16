@@ -1,36 +1,25 @@
-# Hi, I'm Natalie
+# Hi, I'm Natalie 👋
 
-Machine learning engineer building AI systems across predictive maintenance, reliability modeling, and industrial technology.
+**Machine learning engineer** building AI systems for predictive maintenance, reliability modeling, and industrial technology. I apply ML to real-world engineering problems and work across the full stack — modeling, product, and customer discovery.
 
-I'm interested in applying machine learning to real-world engineering problems and enjoy working across engineering, product development, and customer discovery.
-
-## Current Focus
-
-* Industrial AI
-* Predictive Maintenance
-* Digital Twins
-* Reliability Engineering
-* Machine Learning
-* Full Stack Product Development
+Currently building **[Kaful](https://kaful.ai)** — AI software that predicts industrial equipment failures before they happen.
 
 ## Featured Projects
 
-### SurvivalSimulation
+**[Battery_Rul_CNN](https://github.com/buchbindern/Battery_Rul_CNN)** — A PyTorch CNN that predicts lithium-ion battery remaining useful life from single-cycle discharge data. R² ≈ 0.76 on held-out cells, with a fully reproducible data pipeline.
 
-A simulation framework for evaluating survival analysis models under varying censoring conditions.
+**[SurvivalSimulation](https://github.com/buchbindern/SurvivalSimulation)** — A framework for comparing survival models (Cox PH, Random Survival Forest, Gradient Boosting) out-of-sample under varying censoring, evaluated with concordance, time-dependent AUC, and Brier score.
 
-### MathworksInPython
+**[MathworksInPython](https://github.com/buchbindern/MathworksInPython)** — Python reimplementations of MathWorks Predictive Maintenance Toolbox workflows — reliability modeling and wind-turbine bearing prognosis — without MATLAB.
 
-Python implementations of predictive maintenance and reliability engineering workflows originally developed in MATLAB.
+**[Kaful](https://kaful.ai)** — Industrial AI for predictive maintenance: prognostic digital twins that forecast equipment failure and remaining useful life.
 
-### Kaful
+## Tech
 
-Industrial AI software focused on predicting equipment failures and improving operational decision-making.
+`Python` · `PyTorch` · `Scikit-Learn` · `TypeScript` · `Next.js` · `PostgreSQL`
 
-## Tech Stack
-
-Python • TypeScript • Next.js • PyTorch • Scikit-Learn • PostgreSQL • Machine Learning • Survival Analysis
+Survival analysis · deep learning · predictive maintenance · full-stack product development
 
 ## Connect
 
-* LinkedIn: https://www.linkedin.com/in/natalie-buchbinder/
+- LinkedIn: [natalie-buchbinder](https://www.linkedin.com/in/natalie-buchbinder/)

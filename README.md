@@ -1,25 +1,25 @@
 # Hi, I'm Natalie
 
-Machine learning engineer building agentic AI systems for predictive maintenance, reliability modeling, and industrial technology. I apply ML to real-world engineering problems and work across the full stack — modeling, product, and customer discovery.
+Applied ML engineer working on predictive maintenance and reliability — Bayesian state estimation and survival analysis, plus the systems that run them in production.
 
-Currently building [Kaful](https://kaful.ai/) — AI software that predicts industrial equipment failures before they happen.
+Founded [Kaful](https://kaful.ai/), building prognostic digital twins for industrial equipment. Open to hands-on engineering roles in industrial AI and manufacturing.
 
-## Featured Projects
+[Portfolio](https://natalie-buchbinder.vercel.app) · [LinkedIn](https://www.linkedin.com/in/natalie-buchbinder/)
 
-**[Kaful](https://kaful.ai/)** — Prognostic digital twins that forecast equipment failure and remaining useful life, generated directly from OEM manuals with no historical failure data. A seven-stage agentic pipeline (RAG + LLM extraction → physics simulation → Monte Carlo RUL forecasting) built across four machines. **[Try the live demo →](https://buchbindern.github.io/kaful-showcase/)**
+## Projects
 
-**[Battery_RUL_CNN](https://github.com/buchbindern/Battery_Rul_CNN)** — A PyTorch CNN that predicts lithium-ion battery remaining useful life from single-cycle discharge data. R² ≈ 0.76 on held-out cells, with a fully reproducible data pipeline.
+**[kaful-data-twin](https://github.com/buchbindern/kaful-data-twin)** — Streaming CNC digital twin, deployed as multi-tenant SaaS. Estimates tool wear cut-by-cut from raw cutting-force data with a particle filter and forecasts remaining useful life. Session auth, per-tenant isolation, concurrent ingest (~2× throughput, with the remaining ceilings documented). Postgres + R2 on Render. **[Live demo →](https://kaful-monitor.onrender.com)**
 
-**[SurvivalSimulation](https://github.com/buchbindern/SurvivalSimulation)** — A framework for comparing survival models (Cox PH, Random Survival Forest, Gradient Boosting) out-of-sample under varying censoring, evaluated with concordance, time-dependent AUC, and Brier score.
+> Main finding: cross-tool RUL transfer fails because of the *observation model* — the wear→force map — not the degradation rate. Isolated with a 2×2 study, reproducible from the repo.
 
-**[MathworksInPython](https://github.com/buchbindern/MathworksInPython)** — Python reimplementations of MathWorks Predictive Maintenance Toolbox workflows — reliability modeling and wind-turbine bearing prognosis — without MATLAB.
+**[Kaful agentic pipeline](https://buchbindern.github.io/kaful-showcase/)** — Compiles OEM manuals into executable physics-based digital twins (RAG + LLM extraction → simulation → Monte Carlo RUL) with no historical failure data. Validated across four machines. Presented at IWSM 2026.
+
+**[Battery_RUL_CNN](https://github.com/buchbindern/Battery_Rul_CNN)** — PyTorch CNN predicting lithium-ion battery RUL from single-cycle discharge data. R² ≈ 0.76 on held-out cells.
+
+**[SurvivalSimulation](https://github.com/buchbindern/SurvivalSimulation)** — Out-of-sample comparison of survival models (Cox PH, DeepSurv, RSF, GBSA) under varying censoring.
 
 ## Tech
 
-`Python` · `PyTorch` · `Scikit-Learn` · `TypeScript` · `Next.js` · `PostgreSQL`
+`Python` · `PyTorch` · `PostgreSQL` · `TypeScript` · `Next.js`
 
-Survival analysis · deep learning · agentic LLM pipelines · predictive maintenance · full-stack product development
-
-## Connect
-
-- LinkedIn: [natalie-buchbinder](https://www.linkedin.com/in/natalie-buchbinder/)
+Particle filtering · survival analysis · agentic LLM/RAG pipelines · streaming ingest & concurrency · multi-tenant services
